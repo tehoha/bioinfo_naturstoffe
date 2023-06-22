@@ -3,13 +3,15 @@ import os
 import argparse
 
 # Set path to the dataset directory and define BGC typs and enzyme names + gene kind to search for
-path = '/Users/theohaas/Desktop/MBW_Master/2._Semester/Synthese_Naturstoffe/datasets/RiPP_antismash_out_genbank_files_out_full_analysis/'
+path = '/Users/theohaas/Desktop/MBW_Master/2._Semester/Synthese_Naturstoffe/datasets/probedata/'
+#probedata
+#RiPP_antismash_out_genbank_files_out_full_analysis/
 BGC_types = ["NRPS", "PKS"]
 enzyme_names = ["ycao", "ycaO", "YCAO", "P450", "p450", "radical SAM", "methyltransferase"]
 gene_kind = "biosynthetic"
 
 # Create the parser for input of search range 
-parser = argparse.ArgumentParser()
+'''parser = argparse.ArgumentParser()
 parser.add_argument('search_range_before', help='Number of CDS to check before the biosynthetic gene')
 parser.add_argument('search_range_after', help='Number of CDS to check after the biosynthetic gene')
 # Parse the arguments
@@ -17,7 +19,10 @@ args = parser.parse_args()
 
 # Convert the search range arguments to integers
 num_cds_before = int(args.search_range_before)  # Number of CDS to check before the biosynthetic gene
-num_cds_after = int(args.search_range_after)  # Number of CDS to check after the biosynthetic gene
+num_cds_after = int(args.search_range_after)  # Number of CDS to check after the biosynthetic gene'''
+num_cds_before = 2
+num_cds_after = 2
+
 
 # Iterate over BGC types
 for BGC_type in BGC_types:
@@ -45,20 +50,22 @@ for BGC_type in BGC_types:
                                 # Check surrounding CDS within the specified range
                                 start_index = max(i - num_cds_before, 0)
                                 end_index = min(i + num_cds_after + 1, len(cds_features))
+                                
 
                                 # Iterate over nearby CDS features
                                 for nearby_feature in cds_features[start_index:end_index]:
                                     # Check if the enzyme name is present in the nearby feature
                                     if enzyme_name.lower() in str(nearby_feature).lower():
                                         assert len(nearby_feature.qualifiers['translation']) == 1
-                                        # Generate the enzyme sequence entry
-                                        enzyme_sequence = (
-                                            ">%s from %s (%s)\n%s\n" % (
-                                                nearby_feature.qualifiers['locus_tag'][0],
-                                                seq_record.name,
-                                                nearby_feature.qualifiers["product"],
-                                                nearby_feature.qualifiers['translation'][0]))
-                                        enzyme_sequences.append(enzyme_sequence)
+                                        # Generate the enzyme sequence entry if its not biosynthetic
+                                        if nearby_feature.qualifiers.get("gene_kind", [""])[0] != gene_kind:
+                                            enzyme_sequence = (
+                                                ">%s from %s (%s)\n%s\n" % (
+                                                    nearby_feature.qualifiers['locus_tag'][0],
+                                                    seq_record.name,
+                                                    nearby_feature.qualifiers["product"],
+                                                    nearby_feature.qualifiers['translation'][0]))
+                                            enzyme_sequences.append(enzyme_sequence)
 
                         # Write the enzyme sequences to the output file if any were found
                         if enzyme_sequences:
