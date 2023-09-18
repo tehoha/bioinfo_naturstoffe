@@ -1,0 +1,128 @@
+	Name	Source Database	Type	Integrated Into	Integrated Signatures	GO Terms
+PF00464	Serine hydroxymethyltransferase	pfam	domain	IPR039429		
+PF00891	O-methyltransferase domain	pfam	domain	IPR001077		
+PF01035	6-O-methylguanine DNA methyltransferase, DNA binding domain	pfam	domain	IPR014048		
+PF01135	Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)	pfam	family			
+PF01189	16S rRNA methyltransferase RsmB/F	pfam	family	IPR001678		
+PF01209	ubiE/COQ5 methyltransferase family	pfam	family			
+PF01571	Aminomethyltransferase folate-binding domain	pfam	domain	IPR006222		
+PF01596	O-methyltransferase	pfam	domain	IPR002935		
+PF01660	Viral methyltransferase	pfam	family	IPR002588		
+PF01728	FtsJ-like methyltransferase	pfam	family	IPR002877		
+PF01739	CheR methyltransferase, SAM binding domain	pfam	domain	IPR022642		
+PF01746	tRNA (Guanine-1)-methyltransferase	pfam	family	IPR016009		
+PF01980	tRNA-methyltransferase O	pfam	family	IPR023370		
+PF01994	tRNA ribose 2'-O-methyltransferase, aTrm56	pfam	family	IPR002845		
+PF02005	N2,N2-dimethylguanosine tRNA methyltransferase	pfam	family	IPR002905		
+PF02007	Tetrahydromethanopterin S-methyltransferase MtrH subunit	pfam	family	IPR023467		
+PF02086	D12 class N6 adenine-specific DNA methyltransferase	pfam	family	IPR012327		
+PF02390	Putative methyltransferase	pfam	family	IPR003358		
+PF02527	rRNA small subunit methyltransferase G	pfam	family	IPR003682		
+PF02548	Ketopantoate hydroxymethyltransferase	pfam	family	IPR003700		
+PF02574	Homocysteine S-methyltransferase	pfam	family	IPR003726		
+PF02590	Predicted SPOUT methyltransferase	pfam	family	IPR003742		
+PF02598	Putative RNA methyltransferase	pfam	family	IPR003750		
+PF02636	Putative S-adenosyl-L-methionine-dependent methyltransferase	pfam	family	IPR003788		
+PF02676	Methyltransferase TYW3	pfam	family	IPR003827		
+PF02870	6-O-methylguanine DNA methyltransferase, ribonuclease-like domain	pfam	domain	IPR008332		
+PF03141	Putative S-adenosyl-L-methionine-dependent methyltransferase	pfam	family	IPR004159		
+PF03492	SAM dependent carboxyl methyltransferase	pfam	family	IPR005299		
+PF03587	EMG1/NEP1 methyltransferase	pfam	family	IPR005304		
+PF03705	CheR methyltransferase, all-alpha domain	pfam	domain	IPR022641		
+PF04013	Putative SAM-dependent RNA methyltransferase	pfam	family	IPR007158		
+PF04072	Leucine carboxyl methyltransferase	pfam	family	IPR007213		
+PF04140	Isoprenylcysteine carboxyl methyltransferase (ICMT) family	pfam	family	IPR007269		
+PF04191	Phospholipid methyltransferase	pfam	family	IPR007318		
+PF04206	Tetrahydromethanopterin S-methyltransferase, subunit E	pfam	family	IPR005780		
+PF04207	Tetrahydromethanopterin S-methyltransferase, subunit D	pfam	family	IPR005779		
+PF04208	Tetrahydromethanopterin S-methyltransferase, subunit A	pfam	family	IPR030688		
+PF04210	Tetrahydromethanopterin S-methyltransferase, subunit G	pfam	family	IPR005866		
+PF04211	Tetrahydromethanopterin S-methyltransferase, subunit C	pfam	family	IPR005865		
+PF04252	Predicted SAM-dependent RNA methyltransferase	pfam	family	IPR007364		
+PF04375	HemX, putative uroporphyrinogen-III C-methyltransferase	pfam	family	IPR007470		
+PF04378	Ribosomal RNA large subunit methyltransferase D, RlmJ	pfam	domain	IPR007473		
+PF04445	Putative SAM-dependent methyltransferase	pfam	family	IPR007536		
+PF04452	RNA methyltransferase domain	pfam	domain	IPR046886		
+PF04672	S-adenosyl methyltransferase	pfam	family	IPR006764		
+PF04816	tRNA (adenine(22)-N(1))-methyltransferase	pfam	family	IPR006901		
+PF05050	Methyltransferase FkbM domain	pfam	family	IPR006342		
+PF05148	Hypothetical methyltransferase	pfam	family	IPR007823		
+PF05175	Methyltransferase small domain	pfam	domain	IPR007848		
+PF05185	PRMT5 arginine-N-methyltransferase	pfam	domain	IPR035075		
+PF05206	Methyltransferase TRM13	pfam	family	IPR007871		
+PF05219	DREV methyltransferase	pfam	family	IPR007884		
+PF05369	Monomethylamine methyltransferase MtmB	pfam	family	IPR008031		
+PF05430	S-adenosyl-L-methionine-dependent methyltransferase	pfam	family	IPR008471		
+PF05440	Tetrahydromethanopterin S-methyltransferase subunit B	pfam	family	IPR008690		
+PF05499	DNA methyltransferase 1-associated protein 1 (DMAP1)	pfam	family	IPR008468		
+PF05711	Macrocin-O-methyltransferase (TylF)	pfam	domain	IPR008884		
+PF05724	Thiopurine S-methyltransferase (TPMT)	pfam	family	IPR008854		
+PF05869	DNA N-6-adenine-methyltransferase (Dam)	pfam	family	IPR008593		
+PF05891	AdoMet dependent proline di-methyltransferase	pfam	family	IPR008576		
+PF05958	tRNA (Uracil-5-)-methyltransferase	pfam	family	IPR010280		
+PF05971	RNA methyltransferase	pfam	family	IPR010286		
+PF06253	Trimethylamine methyltransferase (MTTB)	pfam	family	IPR010426		
+PF06325	Ribosomal protein L11 methyltransferase (PrmA)	pfam	family			
+PF06460	Coronavirus 2'-O-methyltransferase	pfam	domain	IPR009461		
+PF06690	FeGP cofactor biosynthesis protein, methyltransferase HcgC	pfam	family	IPR009573		
+PF06983	3-demethylubiquinone-9 3-methyltransferase	pfam	family	IPR028973		
+PF07091	Ribosomal RNA methyltransferase (FmrO)	pfam	family	IPR025981		
+PF07109	Magnesium-protoporphyrin IX methyltransferase C-terminus	pfam	family	IPR010940		
+PF07757	Predicted AdoMet-dependent methyltransferase	pfam	family	IPR011671		
+PF07942	Carnosine N-methyltransferase	pfam	family	IPR012901		
+PF08032	RNA 2'-O ribose methyltransferase substrate binding	pfam	domain	IPR013123		
+PF08241	Methyltransferase domain	pfam	domain	IPR013216		
+PF08242	Methyltransferase domain	pfam	domain	IPR013217		
+PF08456	Viral methyltransferase C-terminal	pfam	family	IPR013664		
+PF08468	Methyltransferase small domain N-terminal	pfam	family	IPR013675		
+PF08484	C-methyltransferase C-terminal domain	pfam	family	IPR013691		
+PF08498	Sterol methyltransferase C-terminal	pfam	family	IPR013705		
+PF08704	tRNA methyltransferase complex GCD14 subunit	pfam	family	IPR014816		
+PF09153	Methylated DNA-protein cysteine methyltransferase, N-terminal	pfam	domain	IPR015236		
+PF09445	RNA cap guanine-N2 methyltransferase	pfam	family	IPR019012		
+PF09472	Tetrahydromethanopterin S-methyltransferase, F subunit (MtrF)	pfam	family	IPR013347		
+PF09505	Dimethylamine methyltransferase (Dimeth_PyL)	pfam	family	IPR012653		
+PF09936	SAM-dependent RNA methyltransferase	pfam	family	IPR019230		
+PF10017	Histidine-specific methyltransferase, SAM-dependent	pfam	family	IPR019257		
+PF10119	Predicted methyltransferase regulatory domain	pfam	family	IPR018773		
+PF10237	Probable N6-adenine methyltransferase	pfam	family	IPR041370		
+PF10294	Lysine methyltransferase	pfam	family	IPR019410		
+PF10354	rRNA (uridine-N3-)-methyltransferase BTM5-like	pfam	domain	IPR019446		
+PF10672	S-adenosylmethionine-dependent methyltransferase	pfam	family	IPR019614		
+PF11312	Putative SAM-dependent methyltransferase	pfam	family	IPR021463		
+PF11531	Coactivator-associated arginine methyltransferase 1 N terminal	pfam	domain	IPR020989		
+PF11599	RRNA methyltransferase AviRa	pfam	family	IPR024268		
+PF11767	Histone lysine methyltransferase SET associated	pfam	domain	IPR024636		
+PF11968	25S rRNA (adenine(2142)-N(1))-methyltransferase, Bmt2	pfam	family	IPR021867		
+PF12047	Cytosine specific DNA methyltransferase replication foci domain	pfam	domain	IPR022702		
+PF12147	Putative methyltransferase	pfam	family	IPR022744		
+PF12176	Methanol-cobalamin methyltransferase B subunit	pfam	domain	IPR021079		
+PF12589	Methyltransferase involved in Williams-Beuren syndrome	pfam	family	IPR022238		
+PF12692	S-adenosyl-L-methionine methyltransferase	pfam	domain	IPR025690		
+PF12803	mRNA (guanine-7-)methyltransferase (G-7-MTase)	pfam	domain	IPR024352		
+PF12847	Methyltransferase domain	pfam	domain			
+PF13383	Methyltransferase domain	pfam	family	IPR025714		
+PF13489	Methyltransferase domain	pfam	domain			
+PF13578	Methyltransferase domain	pfam	domain			
+PF13636	RNA-binding PUA-like domain of methyltransferase RsmF	pfam	family	IPR027391		
+PF13649	Methyltransferase domain	pfam	domain	IPR041698		
+PF13651	Adenine-specific methyltransferase EcoRI	pfam	family	IPR025247		
+PF13679	Methyltransferase domain	pfam	domain	IPR025714		
+PF13847	Methyltransferase domain	pfam	domain	IPR025714		
+PF14314	Virus-capping methyltransferase	pfam	family	IPR039530		
+PF14801	tRNA methyltransferase complex GCD14 subunit N-term	pfam	domain			
+PF16638	Unstructured region on methyltransferase between zinc-fingers	pfam	unknown			
+PF17125	N-terminal domain of 16S rRNA methyltransferase RsmF	pfam	domain	IPR031341		
+PF17126	RsmF rRNA methyltransferase first C-terminal domain	pfam	domain	IPR031340		
+PF17843	MycE methyltransferase N-terminal	pfam	domain	IPR040800		
+PF17987	Phosphoethanolamine N-methyltransferase 2 N-terminal	pfam	domain	IPR040516		
+PF18093	tRNA methyltransferase 5 N-terminal domain	pfam	domain	IPR040601		
+PF18358	Histone methyltransferase Tudor domain	pfam	domain	IPR041292		
+PF18359	Histone methyltransferase Tudor domain 1	pfam	domain	IPR041291		
+PF19222	Nodavirus Vmethyltransferase	pfam	family	IPR043647		
+PF19223	Chroparavirus methyltransferase	pfam	family	IPR043646		
+PF19587	Uncharacterised methyltransferase family (DUF6094)	pfam	family	IPR046076		
+PF20258	Aminomethyltransferase beta-barrel domain	pfam	domain	IPR046885		
+PF20260	RNA methyltransferase PUA domain	pfam	domain	IPR046887		
+PF20473	MmeI, DNA-methyltransferase domain	pfam	domain	IPR046816		
+PF20553	Putative O-methyltransferase	pfam	domain	IPR046788		
